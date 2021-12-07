@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "coords-renderer",
+  "version": "1.0",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Coords Renderer",
+  "description": "it render coords",
   "authors": [
     "Me!"
   ],
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.evaan.coordsrenderer.CoordsRenderer"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "coordsrenderer.mixins.json"
   ],
 
   "depends": {
